@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # Configuração do banco de dados
 db_config = {
-    'host': '172.17.0.3',
+    'host': 'mysql-container',
     'port': '3306',
     'user': 'root',
     'password': 'mypassword123',
